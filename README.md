@@ -28,3 +28,24 @@ This project explores an affordable thermoelectric cooling solution that combine
 - Cooling Fan
 - Heat Sink
 - Power Supply
+
+## Working Principle
+
+The refrigeration system continuously monitors the internal temperature using a DS18B20 temperature sensor.
+
+When the temperature rises above the upper threshold, the ESP32 activates a relay to power the Peltier cooling module. Once the desired temperature range is restored, the relay switches the cooling system off, reducing unnecessary power consumption and improving overall efficiency.
+
+The enclosure dimensions and Peltier placement were selected to maximize cooling effectiveness while maintaining a compact and portable design.
+
+## My Contribution
+
+This project was completed as part of a five-member team.
+
+My contributions included:
+
+- Designing the refrigeration enclosure.
+- Determining the optimal enclosure dimensions to improve cooling efficiency.
+- Researching thermoelectric refrigeration systems and reviewing relevant literature.
+- Optimizing the placement of the Peltier module for effective heat transfer.
+- Co-designing the electronic circuit and selecting the required sensors and power supply.
+- 
